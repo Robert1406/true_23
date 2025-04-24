@@ -9,13 +9,16 @@
     <div id="resultado"></div>
 
     <script>
-        function sumar(valor1,valor2)
+        function sumar()
         {
-            var resultado=valo1+valor2;
-            document.getElementById("resultado").innerHTML="La finción obtiene la siguiente suma: "+resultado;
+            valor1 = parseInt(prompt("Vamos a sumar 2 número. Ingrese el número uno: "));
+            valor2 = parseInt(prompt("Ingrese número dos: "));
+
+            var resultado=valor1+valor2;
+            document.getElementById("resultado").innerHTML="La función obtiene la siguiente suma: "+resultado;
         }
 
-        sumar(50,200);
+        sumar();
     </script>
 </body>
 </html>
